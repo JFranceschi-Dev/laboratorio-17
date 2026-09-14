@@ -2,7 +2,7 @@ package pa.gob.dntic.laboratorio17;
 
 public class Calculadora {
     public int sumar(int a, int b) {
-        return a + b;
+        return a + b +1;
     }
 
     public int suma_dos_numeros(int a, int b) {
