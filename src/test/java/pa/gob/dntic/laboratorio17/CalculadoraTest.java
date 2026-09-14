@@ -23,6 +23,7 @@ class CalculadoraTest {
 
     @Test
     void sumarDeberiaRetornarLaSumaCorrecta() {
+
         assertEquals(10, calculadora.sumar(4, 6));
         assertEquals(-2, calculadora.sumar(3, -5));
     }
