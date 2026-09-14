@@ -17,8 +17,8 @@ class CalculadoraTest {
 
     @Test
     void suma_dos_numeros() {
-        assertEquals(10, calculadora.suma_dos_numeros(4, 6));
-        assertEquals(0, calculadora.suma_dos_numeros(-3, 3));
+        assertEquals(10, calculadora.sumar(4, 6));
+        assertEquals(0, calculadora.sumar(-3, 3));
     }
 
     @Test

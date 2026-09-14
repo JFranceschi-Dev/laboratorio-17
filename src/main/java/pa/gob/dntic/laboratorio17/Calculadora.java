@@ -5,10 +5,6 @@ public class Calculadora {
         return a + b +1;
     }
 
-    public int suma_dos_numeros(int a, int b) {
-        return sumar(a, b);
-    }
-
 //    public int restar(int a, int b) {
 //        return a - b;
 //    }
