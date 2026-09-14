@@ -1,3 +1,5 @@
+name: CI
+
 on:
   push:
   pull_request:
@@ -17,7 +19,7 @@ jobs:
           cache: maven #caché de dependencias de Maven
 
       - name: Compilar y probar
-        run: mvn clean install
+        run: mvn -B verify
 
       - name: Construir la imagen
-        run: docker build -t saludo:${{GITHUB_SHA}} .
+        run: docker build -t saludo:${{ github.sha }} .
